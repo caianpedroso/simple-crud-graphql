@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  postgres:
+    image: mysql:5.7
+    container_name: database
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: password_db_simple_crud_graphql
+      MYSQL_USER: user_db_simple_crud_graphql
+      MYSQL_DATABASE: db_simple_crud_graphql
+    ports:
+      - 3306:3306

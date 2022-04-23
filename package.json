@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/caianpedroso/simple-crud-graphql/issues"
   },
-  "homepage": "https://github.com/caianpedroso/simple-crud-graphql#readme"
+  "homepage": "https://github.com/caianpedroso/simple-crud-graphql#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
